@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		568608E91FB873C9003F0D10 /* CheckArch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568608E81FB873C9003F0D10 /* CheckArch.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,8 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07F97E3A91F4EEB24EB5C3D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		36F423CCA8F19278F6D89A6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		07F97E3A91F4EEB24EB5C3D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36F423CCA8F19278F6D89A6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		568608E81FB873C9003F0D10 /* CheckArch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckArch.swift; sourceTree = "<group>"; };
 		592E8E5D78C5CB5D4B6B2FDD /* Pods-check_arch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-check_arch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-check_arch_Tests/Pods-check_arch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* check_arch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = check_arch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		8B36D28D278C70A25BCBB756 /* Pods-check_arch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-check_arch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-check_arch_Tests/Pods-check_arch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		909A869441224E6133D3AE17 /* Pods-check_arch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-check_arch_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-check_arch_Example/Pods-check_arch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		94256F8DFCA5FAE3ABBB6F9F /* Pods_check_arch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_check_arch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2847FC45A1200B3494A0309 /* check_arch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = check_arch.podspec; path = ../check_arch.podspec; sourceTree = "<group>"; };
+		B2847FC45A1200B3494A0309 /* check_arch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = check_arch.podspec; path = ../check_arch.podspec; sourceTree = "<group>"; };
 		C073D129083BFE58B6B0B958 /* Pods-check_arch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-check_arch_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-check_arch_Example/Pods-check_arch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,9 +82,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		568608E71FB873B7003F0D10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				568608E81FB873C9003F0D10 /* CheckArch.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				568608E71FB873B7003F0D10 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for check_arch */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -372,6 +383,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				568608E91FB873C9003F0D10 /* CheckArch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,16 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if CheckArch.isSimulator{
+           print("I'm running on a Simulator")
+        }else{
+            print("I'm running on a Device")
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
