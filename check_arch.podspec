@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'With this POD you will be able to check if your app is running on a simulator or a device'
 
-  s.homepage         = 'https://github.com/gabrielslack@gmail.com/check_arch'
+  s.homepage         = 'https://github.com/GabrielLidenor/check_arch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gabrielslack@gmail.com' => 'gabrielslack@gmail.com' }
-  s.source           = { :git => 'https://github.com/gabrielslack@gmail.com/check_arch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GabrielLidenor/check_arch.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/gabriellidenor'
 
   s.ios.deployment_target = '8.0'
