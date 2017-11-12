@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import check_arch
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		568608E91FB873C9003F0D10 /* CheckArch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568608E81FB873C9003F0D10 /* CheckArch.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		07F97E3A91F4EEB24EB5C3D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		36F423CCA8F19278F6D89A6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		568608E81FB873C9003F0D10 /* CheckArch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckArch.swift; sourceTree = "<group>"; };
 		592E8E5D78C5CB5D4B6B2FDD /* Pods-check_arch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-check_arch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-check_arch_Tests/Pods-check_arch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* check_arch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = check_arch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,18 +80,9 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		568608E71FB873B7003F0D10 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				568608E81FB873C9003F0D10 /* CheckArch.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				568608E71FB873B7003F0D10 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for check_arch */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -383,7 +372,6 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				568608E91FB873C9003F0D10 /* CheckArch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,12 +1,4 @@
-//
-//  CheckArch.swift
-//  check_arch_Example
-//
-//  Created by Gabriel Lidenor on 12.11.17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
-//
-
-public class CheckArch {
+public struct CheckArch {
     public static let isSimulator: Bool = {
         var isSim = false
         #if arch(i386) || arch(x86_64)
