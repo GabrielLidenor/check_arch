@@ -1,0 +1,6 @@
+framework module check_arch {
+  umbrella header "check_arch-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "check_arch",
+  "version": "0.1.0",
+  "summary": "A short description of check_arch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gabrielslack@gmail.com/check_arch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gabrielslack@gmail.com": "gabrielslack@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gabrielslack@gmail.com/check_arch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "check_arch/Classes/**/*"
+}
