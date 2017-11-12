@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'check_arch_Example' do
+  pod 'check_arch', :path => '../'
+
+  target 'check_arch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
