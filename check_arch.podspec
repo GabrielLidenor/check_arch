@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'check_arch'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of check_arch.'
+  s.summary          = 'Check if your app is running on a device or simulator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'With this POD you will be able to check if your app is running on a simulator or a device'
 
   s.homepage         = 'https://github.com/gabrielslack@gmail.com/check_arch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gabrielslack@gmail.com' => 'gabrielslack@gmail.com' }
   s.source           = { :git => 'https://github.com/gabrielslack@gmail.com/check_arch.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/gabriellidenor'
 
   s.ios.deployment_target = '8.0'
 
