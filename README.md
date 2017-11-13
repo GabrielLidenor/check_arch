@@ -20,9 +20,21 @@ it, simply add the following line to your Podfile:
 pod 'check_arch'
 ```
 
+## Easy to use
+```
+  //This method will return a Boolean
+   import check_arch
+
+   if CheckArch.isSimulator{
+     print("I'm running on a Simulator")
+   }else{
+     print("I'm running on a Device")
+   }
+```
+
 ## Author
 
-gabrielslack@gmail.com, gabrielslack@gmail.com
+Gabriel Lidenor
 
 ## License
 
